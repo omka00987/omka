@@ -1,0 +1,61 @@
+/* Сброс стилей для улучшенной совместимости */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Установка основного шрифта и фона для страницы */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Стили для заголовка */
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Стили для ссылок */
+a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #14d3c3; /* Голубой цвет для ссылок */
+    font-size: 1.1rem;
+    margin: 0 10px;
+    transition: color 0.3s ease; /* Плавное изменение цвета при наведении */
+}
+
+a:hover {
+    color: #0de7e3; /* Темно-голубой при наведении */
+}
+
+/* Добавление стилей для блока навигации (ссылок) */
+nav {
+    margin-bottom: 20px;
+}
+
+/* Добавление отступов для всего контента */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Стили для адаптивности */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    a {
+        font-size: 1rem;
+    }
+}
